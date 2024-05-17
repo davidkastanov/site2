@@ -1,0 +1,32 @@
+body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 50px;
+	 font-family: "Rubik Beastly", system-ui;
+	 text-align: center;
+	color: mediumaquamarine; 
+	background-color: yellow;
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: navajowhite;
+}
+.l1 li::marker{
+	color: greenyellow;
+	font-size: 1.1em;
+}
+.l2 li{
+	padding-left: 10px;
+}
+ol{
+	margin-left: 50px;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 😀 👻 👽 🤖 🎃 😹 👋 👀 💋 ✅;
+  suffix: " ";
+}
+.l3{
+	list-style: emoji;
+}
